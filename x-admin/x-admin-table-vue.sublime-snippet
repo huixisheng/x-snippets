@@ -1,0 +1,57 @@
+<snippet>
+  <content><![CDATA[
+@extends('yunying.layout-base',[
+    'system_name'   => '${1:网页标题默认为xx后台}',
+    'page_title'    => '${2:}'
+])
+@section('content')
+
+<div id="contentContainer" class="container-flush" v-cloak>
+    <c-table
+        :addbtn='{
+            "url": "http://huixisheng.github.io",
+            "text": "打开悔惜晟的博客"
+        }'
+        :thead='["编号", "户籍", "地址", "链接"]'
+        :tbody='[
+            ["0001", "浙江杭州", "文一西路", { "type": "link", "text": "打开页面", "url": "http://huixisheng.github.io" }],
+            ["0002", "浙江龙泉", "山溪口", "http://huixisheng.github.io"],
+            ["0002", "浙江龙泉", "山溪口", { "type": "delete", "text": "删除", "data": "tid=2&aid=1", "url": "/index/verify-params" }],
+            ["0003", "浙江温州", "海鲜路", "http://static.cosmeapp.com/FrVzmD8UrqF_I45_O5yHv6gB53lA?imageMogr2/auto-orient/thumbnail/750x%3E/format/JPG"],
+            ["0004", "浙江宝溪", "披云路", [
+                { "type": "link", "text": "打开页面1", "url": "http://huixisheng.github.io" },
+                { "type": "link", "text": "打开页面2", "url": "http://huixisheng.github.io" },
+                { "type": "link", "text": "打开页面3", "url": "http://huixisheng.github.io" },
+                { "type": "link", "text": "打开页面4", "url": "http://huixisheng.github.io" }]
+            ]
+        ]'
+        :config='{
+            "debug": false
+        }'
+    >
+    </c-table>
+</div>
+
+<script>
+require(['jquery', 'vue', 'tableSimple'],
+    function (\$, Vue, cTable) {
+
+    new Vue({
+        el: '#contentContainer',
+        data: {
+
+        },
+        components: {
+            cTable
+        }
+    });
+});
+</script>
+@endsection
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>x-admin-table-vue</tabTrigger>
+  <description>vue封装的通用表格</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

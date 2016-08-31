@@ -1,0 +1,31 @@
+<snippet>
+    <content><![CDATA[
+window.${1:this}ModelView = new Vue({
+    el: '${2:snippet}',
+    data: {
+
+    },
+    computed: {},
+    ready: function(){
+
+    },
+    created: function(){
+
+    },
+    methods: {
+
+    },
+    events: {
+
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>x-vue-init</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.html</scope> -->
+    <description>vue初始化</description>
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

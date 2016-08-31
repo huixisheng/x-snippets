@@ -1,0 +1,50 @@
+<snippet>
+  <content><![CDATA[
+define(function(require, exports, module) {
+  var \$ = require('jquery');
+  var Vue = require('vue');
+  var template = '';
+
+  var component = Vue.extend({
+      inherit: true, //集成父元素所有属性
+      template: template,
+      data: function() {
+        return {
+
+        }
+      },
+      props: {
+        'config': {
+          required: true,
+          type: Object,
+          default: function(){
+            return {
+              'debug': false
+            }
+          }
+        }
+      },
+      compiled: function() {
+      },
+      methods: {
+
+      },
+      components: {
+      },
+      filters: {
+
+      },
+      ready: function() {
+      },
+      watch: {
+      }
+  });
+  return component;
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>x-vue-amd-component</tabTrigger>
+  <description>amd封装component</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
