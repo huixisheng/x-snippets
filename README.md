@@ -26,3 +26,7 @@
         </tr>
     </tbody>
 </table>
+
+## 其他代码片段 ##
+
+    git clone https://github.com/JasonMortonNZ/bs3-sublime-plugin.git

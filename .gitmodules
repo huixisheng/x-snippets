@@ -1,0 +1,3 @@
+[submodule "bs3-sublime-plugin"]
+	path = bs3-sublime-plugin
+	url = https://github.com/JasonMortonNZ/bs3-sublime-plugin.git
