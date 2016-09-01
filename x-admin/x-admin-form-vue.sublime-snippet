@@ -201,7 +201,7 @@ require(['jquery', 'vue', 'dataForm'],
 
         },
         components: {
-            cDataForm
+            'c-data-form': cDataForm
         }
     });
 });

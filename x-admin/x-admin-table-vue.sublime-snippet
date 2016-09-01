@@ -42,7 +42,7 @@ require(['jquery', 'vue', 'tableSimple'],
 
         },
         components: {
-            cTable
+            'c-table': cTable
         }
     });
 });
