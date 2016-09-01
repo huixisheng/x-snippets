@@ -1,3 +1,6 @@
 [submodule "bs3-sublime-plugin"]
 	path = bs3-sublime-plugin
 	url = https://github.com/JasonMortonNZ/bs3-sublime-plugin.git
+[submodule "vuejs-snippets-sublime"]
+	path = vuejs-snippets-sublime
+	url = https://github.com/filipelinhares/vuejs-snippets-sublime.git
