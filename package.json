@@ -1,0 +1,35 @@
+{
+  "name": "amazeui-snippets",
+  "version": "1.0.1",
+  "description": "Amaze UI template snippets for IDE.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amazeui/snippets.git"
+  },
+  "keywords": [
+    "Amaze UI",
+    "Sublime",
+    "WebStorm"
+  ],
+  "author": "Amaze UI Team",
+  "license": "CC BY 4.0",
+  "bugs": {
+    "url": "https://github.com/amazeui/snippets/issues"
+  },
+  "homepage": "https://github.com/amazeui/snippets",
+  "devDependencies": {
+    "amazeui-doc-util": "^0.4.0",
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.7",
+    "gulp-zip": "^3.2.0",
+    "markit-json": "^0.2.1",
+    "handlebars": "^4.0.5"
+  }
+}

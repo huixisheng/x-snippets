@@ -1,0 +1,17 @@
+/tools
+/vendor
+/docs
+
+.bower-cache
+.bower-registry
+.bower-tmp
+.idea
+.node_modules
+.bowerrc
+.sass-cache
+
+nodemon.json
+composer.json
+bower.json
+
+.publish

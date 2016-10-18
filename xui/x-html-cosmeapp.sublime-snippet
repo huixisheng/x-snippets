@@ -1,0 +1,45 @@
+<snippet>
+  <content><![CDATA[
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="美妆心得">
+  <meta name="format-detection" content="telephone=no,email=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>${1:this}</title>
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Web App名称" />
+
+  <meta name="keywords" content="美妆心得,化妆品,社区,口碑,点评,试用,福利社">
+  <meta name="description" content="美妆心得,为了帮助姐妹们选择自己最适合的化妆品。这里汇聚了大量的真实的化妆品点评信息，什么产品好，什么产品不好，完全由姐妹们的口碑说的算。">
+  <meta name="apple-itunes-app" content="app-id=509812695">
+  <meta name="renderer" content="webkit">
+  <meta name="full-screen" content="yes">
+  <meta name="x5-fullscreen" content="true">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+  <link rel="dns-prefetch" href="//p.cosmeapp.com">
+  <link rel="dns-prefetch" href="//h5.cosmeapp.com">
+  <link rel="dns-prefetch" href="//public.cosmeapp.com">
+  <link rel="dns-prefetch" href="//at.alicdn.com">
+  <link rel="icon" href="//img0.cosmeapp.com/center/logo.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="//img0.cosmeapp.com/center/logo.png" />
+  <link href="//img0.cosmeapp.com/FhYBXoDz1CLu2Slj2kKIKjBBW9W_?imageView2/2/w/114/h/114" rel="apple-touch-icon-precomposed">
+
+</head>
+<body>
+
+
+</body>
+</html>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>x-html-cosmeapp</tabTrigger>
+  <description>美妆心得html模板</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

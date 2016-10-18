@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+;(function () {
+    ${1:this}
+} ());
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>iife</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.html</scope> -->
+    <!-- http://www.cnblogs.com/TomXu/archive/2011/12/31/2289423.html -->
+    <description>自执行匿名函数</description>
+    <!-- <tabTrigger>hello</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
