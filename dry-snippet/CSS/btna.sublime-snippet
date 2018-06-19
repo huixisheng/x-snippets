@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[display: block; width: ${1:20}px; height: ${2:20}px; line-height: ${2:20}px; text-align: center; ]]></content>
-	<tabTrigger>btna</tabTrigger>
-    <description>a标签Block按钮</description>
-    <scope>source.css, source.less, source.scss, source.stylus, source.htm, source.html</scope>
-</snippet>

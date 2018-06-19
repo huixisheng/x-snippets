@@ -7,3 +7,6 @@
 [submodule "snippets"]
 	path = snippets
 	url = https://github.com/amazeui/snippets.git
+[submodule "weapp-snippet-for-sublime-text-2-3"]
+	path = weapp-snippet-for-sublime-text-2-3
+	url = git@github.com:Abbotton/weapp-snippet-for-sublime-text-2-3.git

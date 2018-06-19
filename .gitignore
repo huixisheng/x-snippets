@@ -38,3 +38,4 @@ jspm_packages
 jetbrains
 dist
 .build
+tmp

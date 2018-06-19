@@ -1,35 +1,36 @@
 {
-  "name": "amazeui-snippets",
-  "version": "1.0.1",
-  "description": "Amaze UI template snippets for IDE.",
+  "name": "x-snippets",
+  "version": "1.0.0",
+  "description": "code snippet awesome",
   "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "art-template": "^4.12.2",
+    "fast-glob": "^2.2.2",
+    "fs-extra": "^6.0.1",
+    "node-atomizr": "^0.6.1",
+    "signale": "^1.2.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/amazeui/snippets.git"
+    "url": "git+https://github.com/huixisheng/x-snippets.git"
   },
   "keywords": [
-    "Amaze UI",
-    "Sublime",
-    "WebStorm"
+    "snippet",
+    "sumlimet",
+    "vscode",
+    "atom"
   ],
-  "author": "Amaze UI Team",
-  "license": "CC BY 4.0",
+  "author": "huixisheng",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/amazeui/snippets/issues"
+    "url": "https://github.com/huixisheng/x-snippets/issues"
   },
-  "homepage": "https://github.com/amazeui/snippets",
-  "devDependencies": {
-    "amazeui-doc-util": "^0.4.0",
-    "gulp": "^3.9.1",
-    "gulp-gh-pages": "^0.5.4",
-    "gulp-load-plugins": "^1.2.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-util": "^3.0.7",
-    "gulp-zip": "^3.2.0",
-    "markit-json": "^0.2.1",
-    "handlebars": "^4.0.5"
-  }
+  "homepage": "https://github.com/huixisheng/x-snippets#readme"
 }

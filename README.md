@@ -113,3 +113,9 @@ git submodule sync [来自](https://github.com/hokein/Wiki/wiki/Git-submodule%E4
 用 git checkout master 将 HEAD 从游离状态切换到 master 分支 , 这时候，git 会报 Warning 说有一个提交没有在 branch 上，记住这个提交的 change-id（假如 change-id 为 aaaa)
 用 git cherry-pick aaaa 来将刚刚的提交作用在 master 分支上
 用 git push 将更新提交到远程版本库中 [引用](http://blog.devtang.com/2013/05/08/git-submodule-issues/)
+
+
+## 资源 ##
+- https://www.v2ex.com/t/339098
+- https://www.v2ex.com/t/318448
+- https://www.v2ex.com/t/330776
