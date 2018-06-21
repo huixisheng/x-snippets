@@ -85,3 +85,4 @@ class Snippet {
 
 const instanceSnippetVue = new Snippet('x-vue');
 const instanceSnippetWepy = new Snippet('x-wepy');
+const instanceSnippetJs = new Snippet('x-js');
