@@ -8,7 +8,7 @@
 <script>
 import wepy from 'wepy';
 
-export default class ${1:MyComponent} extends wepy.component {
+export default class extends wepy.component {
   props = {
 
   }
