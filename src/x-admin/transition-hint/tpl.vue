@@ -1,6 +1,3 @@
-<style scoped>
-</style>
-
 <template>
 <div>
   <div style="margin: 0 0 20px;">
@@ -19,6 +16,7 @@
 <script>
 export default {
   title: '${1:}',
+
   data() {
     return {
       list: [
@@ -29,8 +27,9 @@ export default {
       ],
     };
   },
-  props: {},
+
   computed: {},
+
   methods: {
     handleRedirect(item) {
       this.open(item.url);
@@ -38,3 +37,7 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+</style>
+

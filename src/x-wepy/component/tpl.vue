@@ -1,10 +1,9 @@
-<style lang="less">
-</style>
 <template>
 <view>
   <slot></slot>
 </view>
 </template>
+
 <script>
 import wepy from 'wepy';
 
@@ -24,3 +23,7 @@ export default class extends wepy.component {
   }
 }
 </script>
+
+<style lang="less">
+
+</style>

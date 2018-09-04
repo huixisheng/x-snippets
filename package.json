@@ -6,7 +6,9 @@
   "directories": {
     "doc": "docs"
   },
-  "dependencies": {},
+  "dependencies": {
+    "user-home": "^2.0.0"
+  },
   "devDependencies": {
     "art-template": "^4.12.2",
     "fast-glob": "^2.2.2",
@@ -15,6 +17,7 @@
     "signale": "^1.2.1"
   },
   "scripts": {
+    "generate": "node scripts/snippet.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -66,6 +66,11 @@ OS X: ~/Library/Preferences/<product name><version number>/templates  [https://w
 - https://github.com/JasonMortonNZ/bootstrap3-phpstorm-plugin
 
 
+## 生成vscode snippet
+- https://code.visualstudio.com/docs/editor/userdefinedsnippets
+- [向 VSC 添加代码段(Adding Snippets to Visual Studio Code)](https://jeasonstudio.gitbooks.io/vscode-cn-doc/content/md/%E5%AE%9A%E5%88%B6%E5%8C%96/%E7%94%A8%E6%88%B7%E5%AE%9A%E4%B9%89%E4%BB%A3%E7%A0%81%E6%AE%B5.html)
+- https://stackoverflow.com/questions/29995863/how-to-add-custom-code-snippets-in-vscode
+
 ## 问题 ##
 
 ### 如何删除`submodule` ###

@@ -5,6 +5,7 @@ const fs = require('fs');
 const signale = require('signale');
 const nodeAtomizr = require('node-atomizr');
 const template = require('art-template');
+const userHome = require('user-home');
 
 class Snippet {
   constructor(snippetType) {
@@ -78,6 +79,12 @@ class Snippet {
       // console.log(vscodeSnippet);
     });
     fse.outputFileSync(distBasePath, JSON.stringify(vscodeSnippet, null, 2));
+    try {
+      fse.copySync(distBasePath, path.join(userHome, 'Library/Application\ Support/Code/User/snippets/', snippetType + '.code-snippets'));
+      console.log('copy success!');
+    } catch (err) {
+      console.error(err)
+    }
     signale.success('vscodeParse successful');
   }
 

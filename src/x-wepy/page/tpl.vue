@@ -1,8 +1,7 @@
-<style>
-</style>
-
 <template>
-<view></view>
+<view>
+
+</view>
 </template>
 
 <script>
@@ -38,3 +37,6 @@ export default class extends wepy.page {
   }
 }
 </script>
+
+<style lang="less">
+</style>

@@ -1,29 +1,41 @@
-<style scoped>
-${2:}
-</style>
-
 <template>
-  <div>${1:}</div>
+<div>${1:}</div>
 </template>
 
 <script>
 export default {
-  components: {
+  // mixins: [],
 
-  },
+  components: {},
+
   data() {
     return {
 
     };
   },
-  props: {
 
-  },
   computed: {
 
   },
+
+  created() {
+
+  },
+
+  mounted() {
+
+  },
+
+  activated() {
+
+  },
+
   methods: {
 
   },
 };
+
 </script>
+<style ${2:lang="less"} scoped>
+
+</style>
