@@ -9,34 +9,31 @@ import wepy from 'wepy';
 
 export default class extends wepy.page {
   config = {
-    navigationBarTitleText: ''
-  }
-  components = {
-  }
-
-  mixins = []
-
-  data = {
-
+    // backgroundTextStyle: 'light',
+    // navigationBarBackgroundColor: '#0082f3',
+    // navigationBarTitleText: '页面标题',
+    // enablePullDownRefresh: true,
+    // navigationBarTextStyle: 'white'
   }
 
   computed = {
 
   }
 
+  data = {
+
+  }
+
+  components = {
+
+  }
+
   methods = {
-
-  }
-
-  events = {
-
-  }
-
-  onLoad() {
 
   }
 }
 </script>
 
 <style lang="less">
+
 </style>
